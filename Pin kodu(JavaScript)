@@ -1,0 +1,22 @@
+
+function insert(num)
+    {
+        document.getElementById("pinv").value=document.getElementById("pinv").value+num;
+    }
+function back()
+{
+      var exp = document.getElementById("pinv").value;
+      document.getElementById("pinv").value=exp.substring(0,exp.length-1);
+}
+
+function okey(){
+  var text = document.getElementById("pinv").value; 
+  text.value="";
+
+  if(text.length > 4){
+     console.log("Pin Kodunuz En az 4 haneli olmalıdır");
+    addEventListener(onş);
+     }
+  
+  
+}
