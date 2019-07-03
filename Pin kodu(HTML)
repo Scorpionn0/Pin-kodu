@@ -1,0 +1,40 @@
+<div class="main">
+  
+  
+  
+   
+    <input class="pinview"id="pinv" type="text"disabled></input>
+    <input type="button" id="esc" class="pin"value="←"onclick="back()"></input>
+    
+  <div class="asd">
+    <table>
+    <tr>
+      <td><input type="button" class="pin"value="7"onclick="insert(7)"></input></td>
+      <td><input type="button" class="pin"value="8"onclick="insert(8)"></input></td>
+      <td><input type="button" class="pin"value="9"onclick="insert(9)"></input></td>
+    </tr>
+
+    <tr>
+      <td><input type="button" class="pin"value="4"onclick="insert(4)"></input></td>
+      <td><input type="button" class="pin"value="5"onclick="insert(5)"></input></td>
+      <td><input type="button" class="pin"value="6"onclick="insert(6)"></input></td>
+    </tr>
+
+    <tr>
+      <td><input type="button" class="pin"value="1"onclick="insert(1)"></input></td>
+      <td><input type="button" class="pin"value="2"onclick="insert(2)"></input></td>
+      <td><input type="button" class="pin"value="3"onclick="insert(3)"></input></td>
+    </tr>
+    
+    <tr>
+      <td><input type="button" id="button" class="pin"value="0"onclick="insert(0)">    
+</input></td>
+
+ <td><input type="button" id="correct" class="pin"value="✔"onclick="okey()">    
+</input></td>
+    </tr>
+
+  </table>
+  
+</div>
+</div>
