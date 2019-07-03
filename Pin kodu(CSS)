@@ -1,0 +1,45 @@
+body{
+  margin:0;
+  padding:0;  
+  background:#FFD54F;
+}
+.main{
+ width:220px; 
+  height:280px;
+  border:1px solid #fff;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(-50%)translateY(-50%);
+
+}
+.pinview{
+  width:160px;
+  border:none;
+  border-bottom:1px solid #fff;
+  margin-left:10px;
+  margin-top:10px;
+  background:transparent;
+  color:#fff;
+}
+.pin{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  color:#fff;
+  background:#78909C;
+}
+#esc{
+  width:40px;
+  height:40px;
+  background:transparent;
+  border:none;
+  
+}
+.asd{
+  margin-left:40px;
+  margin-top:20px;
+}
+#correct{
+ 
+}
